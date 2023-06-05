@@ -13,4 +13,4 @@
 
 <hr>
 
-<p> Link to Project : <a src="https://eduardosacra.github.io/Lab-Carousel/">https://eduardosacra.github.io/Lab-Carousel/</a></p>
+Link to Project : [https://eduardosacra.github.io/Lab-Carousel/](https://eduardosacra.github.io/Lab-Carousel/)
