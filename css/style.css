@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  background-color: #7768ce;
+  height: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.container-center-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container-carousel {
+  width: 1100px;
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: space-around;
+  height: 500px;
+}
+
+.carousel-box {
+  overflow-x: auto;
+  width: calc(270px * 3);
+  overflow: hidden;
+  margin-top: 100px;
+}
+
+.carousel {
+  display: flex;
+  width: fit-content;
+  transition: transform 0.6s ease-in-out;
+  align-items: center;
+}
+
+.card {
+  width: 250px;
+  height: 280px;
+  background-color: #9e68ce;
+  margin: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+.card-destaque {
+  width: 290px;
+  height: 320px;
+}
+
+.nav-carousel {
+  display: flex;
+  justify-content: center;
+}
+.nav-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.btn {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(153, 153, 229);
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.btn-prev {
+  transform: rotate(180deg);
+}
+
+.seta {
+  position: relative;
+}
+
+.barra1,
+.barra2 {
+  position: absolute;
+  border: solid 1px black;
+  width: 20px;
+  /* right: 50%; */
+  translate: 60%;
+}
+
+.barra1 {
+  transform: rotate(45deg);
+  right: 50%;
+  top: 17px;
+}
+
+.barra2 {
+  transform: rotate(-45deg);
+  right: 50%;
+  top: 32px;
+}
